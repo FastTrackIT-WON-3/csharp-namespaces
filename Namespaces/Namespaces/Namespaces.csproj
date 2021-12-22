@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Geometry.ThreeD\Geometry.ThreeD.csproj" />
+    <ProjectReference Include="..\Geometry.TwoD\Geometry.TwoD.csproj" />
+  </ItemGroup>
+
+</Project>
